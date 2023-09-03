@@ -1,0 +1,32 @@
+.header_title {
+  color: #50B810;
+}
+
+.header_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add_task, .add_button_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task_count {
+  border: 2px solid #7B8AAB;
+  border-radius: 20%;
+  padding: 2px 5px;
+  margin: 0 5px;
+}
+
+.add_button_div {
+  font-size: 22px;
+  background-color: #D9D9D9;
+  color: #3D8FEC;
+  padding: 0 5px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}

@@ -1,0 +1,26 @@
+.card_title_div {
+  display: flex;
+  align-items: flex-start;
+}
+
+.card_title {
+  //color: #3D8FEC;
+  //padding-top: 10px;
+  //font-size: 20px;
+  //overflow: hidden;
+  //display: -webkit-box;
+  //-webkit-line-clamp: 3; /* Number of lines to show */
+  //-webkit-box-orient: vertical;
+  //text-overflow: ellipsis;
+  max-height: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+//
+.done_checkbox {
+  float: left;
+  max-height: 20px;
+}
